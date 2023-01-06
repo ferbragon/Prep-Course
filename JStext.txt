@@ -1,0 +1,45 @@
+Actividad 1
+
+VARIABLES
+Son órdenes o declaraciones que le damos al lenguaje de programación para guardar información. Existen 3 tipos hasta JS6:
+-var variable actualizable en JS5
+-let variable utilizable en JS6 (dinàmica con los scoop(alcances))
+-const variable no actualizable o constante
+
+STRINGS
+Del idioma inglés "cadena" es un tipo de dato de finido como una serie o un conjunto de carácteres que lee el lenguaje de
+programación. Dicho conjunto se detecta entre comillas simples o dobles
+Ej:
+"armadillo" "212jh"
+
+FUNCIONES
+Declaraciones que le damos al lenguaje de programación. Su sintaxis en general esta constituido por el llamado function
+seguida por el nombre que le daremos a la función, los arumentos dentro de paréntesis y el código que interpretará
+el lenguaje de programación dentro de corchetes. Se pueden declarar variables dentro de las funciones. Los argumentos
+son los datos que ingresará el usuario para llevar a cabo la función. Existen diferentes tipos de funciones ya integradas
+en el lenguaje de programación por ejemplo return.
+
+return() es una función que peculiar porque a diferencia de console-log(), return imprime un valor especìfico de la función
+y detiene la lectura de programación
+Ej:
+function suma (a,b) {
+   return(a + b);
+}
+
+DECLARACIONES
+Son órdenes que le damos al lenguaje de programación que tienen dos respuestas true o false. Se utilizan en el control de
+flujo declaraciones como if, else, else if que traducidas serían si, sino, sino si.
+Ej:
+function mayoredad(edad) {
+ if (edad > 17) {
+ console.log("Eres mayor de edad");
+ }
+ else; {
+ console.log("No eres mayor de edad");
+ }
+}
+
+BOOLEANOS
+La lógica de Boole indica que una declaración o proposición puede ser falsa o verdadera. En el lenguaje de programación
+la computadora interpreta este tipo de declaraciones con dos posibles respuestas true o false. Este tipo de dato se invoca
+con operadores matemáticos como <,>,== u operadores declarativos como if, else, else if.
