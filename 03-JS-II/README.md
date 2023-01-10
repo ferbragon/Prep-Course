@@ -128,7 +128,7 @@ if (false) {
 }
 ```
 
-La declaración `else` siempre aparecerá al final de una cadena `if-else` o `if`, y actuará de manera predeterminada. Si ninguna de las expresiones devuelve `true`, el bloque de código `else` se ejecutará sin importar qué. Si alguna de las expresiones anteriores `if` o `else if` son `true`, el bloque de código de instrucción `else` no se ejecutará.
+La declaración `else` siempre aparecerá al final de una cadena `else-if` o `if`, y actuará de manera predeterminada. Si ninguna de las expresiones devuelve `true`, el bloque de código `else` se ejecutará sin importar qué. Si alguna de las expresiones anteriores `if` o `else if` son `true`, el bloque de código de instrucción `else` no se ejecutará.
 
 ```javascript
 if (false) {
@@ -206,7 +206,8 @@ Los bucles `for` tienen una sintaxis única, similar a la instrucción `if`, per
 
 ```javascript
 for (let i = 0                 ; i < 10                 ; i++          ) {
-// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+// | Declaramos una variable | Expresión condi
+cional | Incrementamos la variable |
     console.log(i);
 }
 ```

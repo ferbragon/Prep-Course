@@ -1,0 +1,17 @@
+for
+Es una declaración en el lenguaje Javascript que nos permite realizar/iterar una acción, o varias acciones, una cantidad
+de veces definida (incluso infinita). Este tipo de acciones se le conoce como loop.
+Existen 3 tipos de declaraciones loop: for, while y do while (hasta el momento).
+For en particular tiene la siguiente sintaxis: 
+
+for (let i = 0; i < 5; i++ ) {
+	
+}
+Se declara una variable de inicio, se limita la realización del loop a 5 (evitar loops infinitos) y se indica que hará la variable. Todo esto separado con punto y coma. Se abren llaves para el codigo. 
+
+
+&&, ||, !
+Son operadores lógicos dentro del lenguaje Javascript.
+&& === y operador lógico y se evalúa true si las proposiciones son verdaderas. De lo contrario se declara false
+|| === o operador lógico y se avaúa true si alguna de las proposiciones es verdadera. De lo contrario de declara false
+! === NOT operador lógico que devuelve lo contrario es decir !true === false
