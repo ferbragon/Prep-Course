@@ -1,0 +1,4 @@
+array
+Los arrays en inglés arreglos o matrices son un conjunto de elementos. En el lenguaje de programación se pueden definir como una variable. Su sintaxis (a diferencia de una variable) incluye los corchetes y dentro de ellos podemos encontrar datos string, números, booleanos, incluso funciones u otras arrays. Tienen la misma propiedad .length que las strings. Un ejemplo de un array:
+
+let a = ["a", 3, true, 0, function Resta(numero), [1,2] ]
