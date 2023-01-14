@@ -1,0 +1,31 @@
+textJSIV
+
+Objetos
+Un objeto en Javascript es un conjunto de propiedades que pueden contener cualquier información. Es decir las propiedades pueden contener string, números, boooleanos, arrays, funciones o incluso otros objetos. Si miramos detenidamente todo el lenguaje de programación Javascript son objetos dentro de otros objetos.
+La sintaxis para definir un objeto es la siguiente: 
+
+let objeto = {
+	usuario: "Fernando",
+	edad: 32,
+}
+Al definir el objeto este contiene información dentro de llaves que separan la información con comas simples. 
+
+Propiedades
+Cada uno de los elementos o información dentro del objeto adquiere el nombre de propiedad. Una propiedad puede contener una string, números, booleanos, arrays e incluso funciones. 
+
+Métodos
+Una función como propiedad en un objeto se le conoce como método. Se usan las funciones anónimas para declarar dichas funciones. Estas funciones tienen la sintaxis de una función fuera del método pero en ella se omite su asignación. Para que todo funcione adecuadamente y utilicemos los valores dentro o fuera del objeto utilizamos el key word this.
+
+Bucle for..in
+Para iterar en un conjunto de elementos enumerados por cadenas, es decir en las propiedades de los métodos usamos el bucle for...in que tiene la siguiente sintaxis. 
+
+let a = {a: 1, b: 2, c:3};
+
+for (const property in a) {
+  console.log(`${property}: ${a[property]`})	
+}
+
+que nos dará las propiedades enumeradas como si utilizaramos un for para un array solo que un array esta enumerado por 0,1,2,3... números.
+
+La notación de puntos y corchetes
+Ambas notaciones son muy buenas. La notación de puntos es muy rapida de escribir pero es muy exacta y limitada. En cambio la notación de corchetes es más precisa y su uso es mucho mayor como la invocación de funciones dentro de otras funciones en objetos. Se recomienda agregar todo el tiempo texto que indique la notación y acción de la función llamada dentro de los objetos. 
