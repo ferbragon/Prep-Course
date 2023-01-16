@@ -1,0 +1,6 @@
+textJSV
+`prototype` 
+La función prototype o propiedad prototipo añade un método en el prototipo de la clase o función constructora de objetos en el lenguaje de programación. Se puede utilizar para añadir a las diferentes maneras de crear una clase (class), crear una función constructora (function Clase(){}) o utilizando Object.create
+
+Constructors
+Los constructores son los parámetros u objetos a partir de cuales vamos a construir nuevos objetos. Estos parámetros o funciones constructoras estan contenidas dentro de una clase. Una clase es el sustantivo global dentro del cual se encontrarán los objetos que generemos dentro del lenguaje. Por ejemplo si quisieramos construir diferentes objetos particulares de "aves". La clase estaría definida como "Aves" en las cual defínimos las propiedades particulares de las aves; y a partir de ellas generaríamos objetos con particularidades únicas como el objeto "paloma", "cisne", "pelícano", etc.

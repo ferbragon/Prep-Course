@@ -231,7 +231,7 @@ En este caso, *no depende* donde hayamos definido la función, lo único que imp
 
 > console.log(o.f());
 < 37
-// el resultado es le mismo!
+// el resultado es el mismo!
 ```
 
 De todos modos, hay que tener cuidado con el keyword `this`, ya que pueden aparecer casos donde es contra intuitivo ( Como varias cosas de JavaScript ). Veamos el siguiente ejemplo:
