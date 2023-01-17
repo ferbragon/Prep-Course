@@ -1,0 +1,17 @@
+textJSVI
+Funciones Callback
+Cuando estamos definiendo una función y a alguno de su parámetro le asignamos otra función estamos haciendo un "callback". La función que definimos puede incluir en sus parámetros otros valores además de la funcion o funciones que son llamadas para poder ejecutarse. 
+
+Un ejemplo:
+Definimos una función
+function callb(x) {
+	return x * 10;
+}
+
+Podemos llamar la funcion anterior dentro de una nueva función, estableciendo la función dentro de sus parámetros
+
+function numeroPorDiez(num, callb) {
+  return callb(num);
+}
+
+Al establecer los argumentos 10 y callb dentro de la función numeroporDiez obtendremos 100.
