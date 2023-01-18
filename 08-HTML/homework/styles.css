@@ -1,0 +1,44 @@
+#principalBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+#thirdDiv {
+        height: 600px;
+        width: 500px;
+        background-color: gray;
+        padding: 50px;
+        border-color: black;
+        border-style: groove;
+        margin: 0 auto;
+    }
+#spanID {
+        color: gray;
+        margin: 50px;
+        position: center;
+        margin: 0 auto;
+    }
+img {
+        width: 400px;
+        position: center;
+        margin: 0 auto;
+     }
+
+body{
+    background-image: url(fondo.jpg);
+    background-size: auto auto;
+    position:center;
+    text-align: center;
+}
+div{
+    position:center;
+}
+h1{
+    position:center;
+}
+h3{
+    position:center;
+}
+h4{
+    position:center;
+}
